@@ -38,3 +38,36 @@ footer {
     background-color: #333;
     color: white;
 }
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.content-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-box {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.media-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.media-box img,
+.media-box video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
