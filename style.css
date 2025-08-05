@@ -71,3 +71,17 @@ footer {
     height: auto;
     border-radius: 8px;
 }
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #575757;
+}
