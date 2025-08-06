@@ -26,6 +26,12 @@
     background-color: #444;
 }
 
+.nav-right a.active {
+    background-color: #444;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
 /*  BODY    */
 body {
     margin: 0;
