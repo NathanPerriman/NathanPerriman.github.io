@@ -87,6 +87,12 @@ footer {
     background-color: #575757;
 }
 
+.floating-text h1 {
+        float: left;
+        font-size: 3em;
+        margin-right: 20px;
+    }
+
 @media (max-width: 768px) {
     .content-section {
         flex-direction: column;
