@@ -1,37 +1,36 @@
 /*   NAVBAR   */
 .navbar {
-    background-color: #222;
     display: flex;
-    justify-content: right;
-    padding: 10px 10px;
-    gap: 10px;
-}
-
-.navbar a {
-    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
     padding: 10px 20px;
+}
+
+.nav-left .site-title {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-right a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
     transition: background-color 0.3s;
-    border-radius: 4px;
 }
 
-.navbar a:hover {
+.nav-right a:hover {
     background-color: #444;
-    border-radius: 4px;
-}
-
-.navbar a.active {
-    background-color: #444;
-    border-radius: 4px;
-    cursor: default;
-    pointer-events: none;
 }
 
 /*  BODY    */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: #757575;
 }
 
 main {
@@ -66,7 +65,8 @@ footer {
 .text-box {
     flex: 1;
     min-width: 300px;
-    background-color: white;
+    background-color: #222;
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -87,7 +87,7 @@ footer {
 .button-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #757575;
     color: white;
     text-decoration: none;
     border-radius: 5px;
