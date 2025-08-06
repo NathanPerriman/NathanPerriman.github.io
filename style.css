@@ -2,8 +2,9 @@
 .navbar {
     background-color: #222;
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
+    justify-content: right;
+    padding: 10px 10px;
+    gap: 10px;
 }
 
 .navbar a {
