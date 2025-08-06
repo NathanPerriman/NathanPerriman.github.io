@@ -1,9 +1,4 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-}
-
+/*   NAVBAR   */
 .navbar {
     background-color: #222;
     display: flex;
@@ -16,11 +11,26 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     transition: background-color 0.3s;
+    border-radius: 4px;
 }
 
 .navbar a:hover {
     background-color: #444;
     border-radius: 4px;
+}
+
+.navbar a.active {
+    background-color: #444;
+    border-radius: 4px;
+    cursor: default;
+    pointer-events: none;
+}
+
+/*  BODY    */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
 }
 
 main {
