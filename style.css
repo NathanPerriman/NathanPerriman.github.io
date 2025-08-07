@@ -119,6 +119,8 @@ section {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .button-link {
